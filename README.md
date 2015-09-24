@@ -14,10 +14,13 @@ Forked from https://github.com/defuse/password-hashing
 ```
 ### Usage
 - Create hashed string via
+ 
  ```php
     $this -> cipasswordhash -> create_hash($password);
  ```
+ 
 - Verify the hashed string via
+ 
  ```php
     $this -> cipasswordhash -> validate_password($password,$right_password);
  ```
@@ -27,4 +30,4 @@ Forked from https://github.com/defuse/password-hashing
  
 
 #### Credit 
-- [password-hashing][https://github.com/defuse/password-hashing]
+- https://github.com/defuse/password-hashing
