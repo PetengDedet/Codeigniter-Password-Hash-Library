@@ -1,6 +1,5 @@
-<?php
-    if(! defined('BASEPATH'))
-        exit('No direct script access allowed');
+<?php 
+defined('BASEPATH')) OR exit('No direct script access allowed');
 /*
  * Password Hashing With PBKDF2 (http://crackstation.net/hashing-security.htm).
  * Copyright (c) 2013, Taylor Hornby
